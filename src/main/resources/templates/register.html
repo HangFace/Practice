@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header text-center fs-4 bg-success text-white mt-4">Register Page</div>
+                    <div class="imgcontainer bg-dark mt-0">
+                        <img src="../static/img_avatar2.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3 text-right">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" name="name">
+                            </div>
+                            <div class="mb-3 text-right">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3 text-right">
+                                <label class="form-label">Address</label>
+                                <input type="text" class="form-control" name="address">
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 text-right">
+                                        <label class="form-label">Street</label>
+                                        <input type="text" class="form-control" name="street">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 text-right">
+                                        <label class="form-label">Pin Code</label>
+                                        <input type="text" class="form-control" name="code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 text-right">
+                                        <label class="form-label">City</label>
+                                        <input type="text" class="form-control" name="city">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 text-right">
+                                        <label class="form-label">State</label>
+                                        <input type="text" class="form-control" name="state">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 text-right">
+                                <label class="form-label">Password</label>
+                                <input type="text" class="form-control" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-success fs-10 col-md-12">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="image.css" rel="stylesheet">
+</body>
+</html>
